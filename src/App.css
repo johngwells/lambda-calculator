@@ -20,3 +20,39 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  .special_button {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .operator_button {
+    /* display: flex; */
+  }
+
+  .number_button {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+  }
+
+  .main_wrapper {
+    display: flex;
+    width: 100%;
+    margin: 2% 7% 0 7%;
+    align-content: center;
+  }
+  .wrapper {
+    display: flex;
+    margin-left: 7%;
+  }
+
+  
+  .button {
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 50px;
+  }
