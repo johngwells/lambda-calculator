@@ -8,6 +8,7 @@
 }
 .display {
     margin-top: 25px;
+    margin-left: 20px;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -23,36 +24,61 @@
 
   .special_button {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+    height: 70px;
+    margin: 23px;
+    margin-left: 21%;
   }
 
   .operator_button {
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 10%;
   }
 
   .number_button {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 400px;
+    margin: 0px;
+    margin-left: 9%;
   }
 
-  .main_wrapper {
-    display: flex;
+  .buttons_container {
     width: 100%;
-    margin: 2% 7% 0 7%;
-    align-content: center;
-  }
-  .wrapper {
     display: flex;
-    margin-left: 7%;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 30px;
   }
 
+  .color1 {
+    background-color: #6996AD;
+  }
+  .color2 {
+    background-color: #0198E1;
+  }
+  .color3 {
+    background-color: #003EFF;
+  }
+
+  .button_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
   
   .button {
     justify-content: center;
     height: 100px;
     width: 100px;
-    margin: 5px;
+    margin: 7px;
     font-size: 20px;
     border-radius: 50px;
+    border: 1px solid black;
   }
